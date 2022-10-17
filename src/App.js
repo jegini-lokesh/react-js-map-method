@@ -15,7 +15,7 @@ var lok=arr.map((index1)=>{
 const App =(ss)=> {
   return(
     <>
-    <h1>hello world</h1>
+    <h1>hello world </h1>
     {/* {console.log(arr)} */}
     {/* {loki} */}
     {/* how can link map with component */}
