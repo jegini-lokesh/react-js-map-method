@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+var arr= [
+  { name:"lokesh" ,age:"25",position:"react devloper" },
+  { name:"murali" ,age:"24",position:"sql devloper" },
+  { name:"gopi" ,age:"26",position:"aws devloper" }
+]
+var lok=arr.map((index1)=>{
+  return(
+    <>
+    <li>{index1.name}</li>
+    <li>{index1.age}</li>
+    </>
+  )
+})
+const App =(ss)=> {
+  return(
+    <>
+    <h1>hello world</h1>
+    {/* {console.log(arr)} */}
+    {/* {loki} */}
+    {/* how can link map with component */}
+    <p>{lok}</p>
+   
+    </>
   );
 }
 
